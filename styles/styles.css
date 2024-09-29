@@ -1,0 +1,374 @@
+/* -----Homepage-----*/
+/* Navigation Bar */
+
+#navmenu {
+    background-color: #e3f2fd;
+}
+
+.nav-link {
+    color: #276e87;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #1b4b5c;
+    margin-bottom: -2px;
+}
+
+.fa-solid, .fa-regular {
+    padding: 5px;
+}
+
+/* Heading Intro */
+
+.intro {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    color: white;
+    /*height: 60vh;*/
+    min-height: 35rem;
+}
+
+.profile-image {
+    max-width: auto;
+    max-height: 18rem;
+    padding: 20px 20px;
+    border-radius: 100%;
+}
+
+.fa-arrow-down-long {
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 20%;
+    padding: 10px 13px;
+}
+
+.fa-arrow-down-long:hover {
+    background-color: #1b4b5c;
+    border-color: #1b4b5c;
+}
+
+.scroll-down-link, .scroll-down-link:hover {
+    color: white;
+}
+
+/* Cards Section */
+
+.cards-section {
+    padding: 6% 0;
+    background-color: #e3f2fd;
+    height: auto;
+}
+
+.card {
+    padding-top: 15px;
+    max-width: 25rem;
+    min-height: 23rem;
+    margin: 1rem;
+    position: relative;
+    border: none;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards-description-projects, .cards-description-contact-me {
+    margin: 25px;
+    padding: 0 25px;
+    border-left: 6px solid #276e87;
+}
+
+.cards-description-resume {
+    margin: 25px;
+    padding: 0 25px;
+    border-left: 6px solid #f2c922;
+}
+
+.projects-card-header, .contact-me-card-header {
+    color: #276e87;
+}
+
+.resume-card-header {
+    color: #f2c922;
+}
+
+.project-card, .contact-me-card {
+    background-color: white;
+    color: black;
+}
+
+.resume-card {
+    background-color: #276e87;
+    color: white;
+}
+
+.projects-btn, .resume-btn, .contact-me-btn {
+    position: absolute;
+    bottom: 15px;  /* Position 10px from the bottom */
+    left: 30px;
+    right: 30px;
+    margin-left: auto;
+    margin-right: auto;  /* Center horizontally */
+}
+
+.contact-me-btn, .projects-btn {
+    background-color: #276e87;
+    border-color: #276e87;
+}
+
+.contact-me-btn:hover, .projects-btn:hover {
+    background-color: #1b4b5c;
+    border-color: #1b4b5c;
+}
+
+.resume-btn {
+    border-color: #f2c922;
+    color: #f2c922;
+}
+
+.resume-btn:hover {
+    background-color: #c9a71c;
+    border-color: #c9a71c;
+}
+
+/* Footer */
+
+.footer {
+    height: 15vh;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.github, .linkedin, .youtube {
+    padding-left: 8px;
+    font-size: 3vh;
+}
+
+.github-link, .linkedin-link, .youtube-link {
+    color: #1b4b5c;
+}
+
+/* -----Contact Me-----*/
+/* Form Section */
+.form-section {
+    min-height:77vh;
+    background-image: linear-gradient(to bottom, #e3f2fd 0%, #89f7fe 97%, #66a6ff 100%);
+    padding: 5vh 0;
+}
+
+.form-header {
+    padding: 1.6vh 2vw 5vw;
+}
+
+.mail-section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mail-logo {
+    font-size: 1.5rem;
+    margin-right: 1vh;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 25%;
+}
+
+.form {
+    min-height: 80%;
+    min-width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-incentive {
+    padding-bottom: 1.5vh;
+}
+
+form {
+    margin: 5% 8% 7% 8%;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Projects Page */
+
+
+.projects-section {
+    background-image: linear-gradient(to bottom, #e3f2fd 0%, #89f7fe 97%, #66a6ff 100%);
+    min-height: 30vh;
+    padding: 5vmax 0;
+}
+
+/* Your existing logo styles */
+.project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vmax 0;
+    gap: 1.5vmax;
+}
+
+/* Your existing logo styles */
+.web-database-interface-logo, .esp-32-logo, .crud-app-logo, .collision-avoidance-system-logo {
+    width: 100%; /* Use full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 25px;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.flip-card {
+    min-width: 35vmax;
+    min-height: 23.33vmax;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+      position: relative;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+      position: absolute;
+      backface-visibility: hidden;
+}
+
+.flip-card-front {
+    width: 35vmax;
+    height: 23.33vmax;
+}
+
+.flip-card-back {
+      background-color: #f8f9fa; /* Optional, for a light background */
+      color: black;
+      transform: rotateY(180deg);
+      border-radius: 25px;
+      padding: 1.5vmin 1.5vmin;
+      box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+      width: 35vmax;
+      min-height: 23.33vmax;
+      overflow: auto;
+}
+
+.back-card-header {
+    font-size: 1.5vmax;
+}
+
+.project-card-summary {
+    font-size: 1.3vmax;
+}
+
+/* Scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 30px
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 25px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.repo-btn {
+    background-color: #21a639;
+    border-color: #21a639;
+    position: absolute;
+    bottom: 15px;  /* Position 10px from the bottom */
+    right: 30px;
+}
+
+.repo-btn:hover {
+    background-color: #2ac747;
+    border-color: #2ac747;
+}
+
+/* Roboto Font classes */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+

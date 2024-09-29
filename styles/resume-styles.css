@@ -1,0 +1,421 @@
+/* Navigation Bar*/
+
+#navmenu {
+    background-color: #e3f2fd;
+}
+
+.nav-link {
+    color: #276e87;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #1b4b5c;
+    margin-bottom: -2px;
+}
+
+nav .fa-solid, nav .fa-regular {
+    padding: 5px;
+}
+
+/* Our App */
+
+main {
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to bottom, #e3f2fd 0%, #89f7fe 97%, #66a6ff 100%);
+    padding: 3vmax 0 5vmax 0;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Sidebar styles */
+
+.sidebar-section {
+    background-color: #dfeeff;
+    border-radius: 30px 0px 0px 30px;
+    width: 370px;
+}
+
+.sidebar-image {
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 50%;
+}
+
+.contacts-container {
+    padding-left: 40px;
+}
+
+.contacts-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    margin-bottom: 12px;
+}
+
+.contacts-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.contacts-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    text-decoration: none;
+    margin-left: 17px;
+}
+
+.contacts-email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    margin-left: 17px;
+}
+
+.contacts-linkedin {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    margin-left: 17px;
+}
+
+.contacts-github {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    margin-left: 17px;
+}
+
+.tech-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.tech-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.tech-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+    margin-top: -10px;
+    margin-left: -11px;
+}
+
+.soft-skills-section {
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.soft-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.soft-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+    margin-top: -10px;
+    margin-left: -11px;
+}
+
+/* Main content styles */
+
+.right-side-container {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 88px;
+    padding-bottom: 80px;
+}
+
+.about-me-profession {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+}
+
+.about-me-name {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    margin-top: 8px;
+    border: 3px solid #6096ff;
+    border-radius: 15px;
+    width: 70%;
+    padding: 15px;
+}
+
+main {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.about-me-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-top: -15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.projects-section-web {
+    margin-top: 40px;
+}
+
+.projects-section-mobile {
+    display: none;
+}
+
+.projects-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.projects-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.project-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #595959;
+}
+
+.project-info {
+    font-weight: 400;
+}
+
+.work-experience-section {
+    margin-top: 40px;
+
+}
+
+.work-experience-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.company-info {
+    color: #6096ff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.company-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: -10px;
+}
+
+.company-elements-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.company-container {
+    margin-top: -10px;
+}
+
+.education-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.education-school {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6096ff;
+    margin-bottom: 8px;
+}
+
+.education-relevant-subjects-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+.education-relevant-subjects-list-mobile {
+    display: none;
+}
+
+.grades {
+    font-weight: 400;
+}
+
+.education-domain {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.education-domain a {
+    text-decoration: none;
+    color: #000;
+}
+
+.education-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: 8px;
+}
+
+.education-section {
+    margin-top: 40px;
+}
+
+.education-container {
+    margin-top: -10px;
+}
+
+/* General Styling*/
+main a {
+    transition: color .3s ease-in-out;
+    padding: 5px;
+}
+
+main a:hover {
+    background-color: #6096ff;
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+
+}
+
+/* Add responsive design */
+@media screen and (max-width: 800px) {
+    .app-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .sidebar-section {
+        border-radius: 30px 30px 0px 0px;
+        width: auto;
+    }
+
+    .about-me-name {
+        width: auto;
+    }
+
+    .projects-section-web {
+        display: none;
+
+    }
+
+    .projects-section-mobile {
+        display: block;
+        width: auto;
+    }
+
+    .right-side-container {
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 180px;
+    }
+
+    .sidebar-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .soft-skills-section {
+        padding-bottom: 40px;
+    }
+
+    .education-relevant-subjects-list {
+        display: none;
+    }
+
+    .education-relevant-subjects-list-mobile {
+        display: block;
+        width: auto;
+    }
+    .education-relevant-subjects-list-mobile {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #595959;
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+
+    .right-side-container {
+        padding-bottom: 7vmax;
+    }
+}
+
+/* Footer */
+.footer {
+    height: 15vh;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.github, .linkedin, .youtube {
+    padding-left: 8px;
+    font-size: 3vh;
+}
+
+.github-link, .linkedin-link, .youtube-link {
+    color: #1b4b5c;
+}
